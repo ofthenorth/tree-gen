@@ -1,5 +1,5 @@
 {
-  "name": "tree-gen",
+  "name": "@ipget/tree-gen",
   "version": "0.5.0",
   "description": "Generate folder structure from ASCII tree",
   "main": "index.js",
@@ -18,17 +18,17 @@
     "generator",
     "scaffold"
   ],
-  "author": "Your Name",
+  "author": "ipget",
   "license": "MIT",
   "engines": {
     "node": ">=14.0.0"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/yourusername/tree-gen.git"
+    "url": "https://github.com/ofthenorth/tree-gen.git"
   },
   "bugs": {
-    "url": "https://github.com/yourusername/tree-gen/issues"
+    "url": "https://github.com/ofthenorth/tree-gen/issues"
   },
-  "homepage": "https://github.com/yourusername/tree-gen#readme"
+  "homepage": "https://github.com/ofthenorth/tree-gen#readme"
 }

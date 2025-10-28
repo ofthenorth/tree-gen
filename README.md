@@ -6,7 +6,7 @@ Generate folder and file structures from ASCII tree diagrams. Perfect for quickl
 
 Install globally via npm:
 ```bash
-npm install -g tree-gen
+npm install -g @ipget/tree-gen
 ```
 
 ## Usage
