@@ -69,7 +69,11 @@ function parseTree(lines) {
         if (indent === -1) return;
 
         // Extract name
-        const name = line.trim().replace(/^[│├└─\s]+/, '').trim();
+        let name = line.trim().replace(/^[│├└─\s]+/, '').trim();
+        if (!name) return;
+
+        // Remove inline comments (everything after # with optional space before)
+        name = name.split(/\s*#/)[0].trim();
         if (!name) return;
 
         // Determine level (roughly based on indent)
