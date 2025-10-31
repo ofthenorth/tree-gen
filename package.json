@@ -1,6 +1,6 @@
 {
   "name": "@ipget/tree-gen",
-  "version": "0.5.1",
+  "version": "0.5.2",
   "description": "Generate folder structure from ASCII tree",
   "main": "index.js",
   "bin": {
